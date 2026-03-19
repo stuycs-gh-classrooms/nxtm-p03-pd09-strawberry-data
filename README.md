@@ -3,7 +3,7 @@
 ### NeXTCS
 ### Period: 09
 ## Thinker0: Rice Yuan
-## Thinker1: Weifen
+## Thinker1: Weifen Chen
 ---
 
 This project will be completed in phases. The first phase will be to work on this document. Use github-flavoured markdown. (For more markdown help [click here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) or [here](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) )
@@ -31,14 +31,16 @@ All projects will require the following:
 ### Custom Force Formula
 What is the formula for your force? Including descriptions/definitions for the symbols. (You may include a picture of the formula if it is not easily typed.)
 
-YOUR ANSWER HERE
+![Electrostatic-Force-Equation-3746599729](https://github.com/user-attachments/assets/986037b6-2c28-4f27-9bd7-c324bda60bd4)
+
 
 ### Custom Force Breakdown
 - What information that is already present in the `Orb` or `OrbNode` classes does this force use?
   - bounce(like bouncing off of the sides)
 - Does this force require any new constants, if so what are they and what values will you try initially?
   - a resistance power which affects how close an orb can get to the other
-  - based on mass & size
+  - based on mass, distance, charge
+  - Coulomb's constant (k)
 
 - Does this force require any new information to be added to the `Orb` class? If so, what is it and what data type will you use?
   - yes, int? PVector?
@@ -69,7 +71,7 @@ YOUR ANSWER HERE
 
 --- 
 
-### Simulation 4: Custom force
+### Simulation 4: Electrostatic force (Custom force)
 Describe what your Custom force simulation will look like. Explain how it will be setup, and how it should behave while running.
 
 YOUR ANSWER HERE
