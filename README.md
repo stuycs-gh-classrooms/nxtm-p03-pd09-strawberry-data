@@ -76,7 +76,8 @@ YOUR ANSWER HERE
 ### Simulation 4: Electrostatic force (Custom force)
 Describe what your Custom force simulation will look like. Explain how it will be setup, and how it should behave while running.
 
-YOUR ANSWER HERE
+Two points (positive or negative subatomic particles) will be setup, and their charges, mass, distance can be adjusted. Once the setup is finaized, when it runs, it should show the forces on each point and the direction (vector).
+
 
 --- 
 
