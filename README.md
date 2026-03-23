@@ -51,7 +51,7 @@ What is the formula for your force? Including descriptions/definitions for the s
   - interacts with other orbs
 
 - In order to calculate this force, do you need to perform extra intermediary calculations? If so, what?
-  - yes: 
+  - yes: judge status of orbs, and then calculate pull based on force(by mass & k factor)
 --- 
 
 ### Simulation 1: Gravity
