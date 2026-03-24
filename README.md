@@ -1,9 +1,11 @@
-## Project 00
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/OwTRjgv_)
+## Project 03
 ### NeXTCS
-### Period: 
-## Thinker0: YOUR NAME HERE
-## Thinker1: OTHER NAME HERE
-## Thinker2: OTHER NAME HERE (delete this line if you are a duo)
+### Period: 09
+## Thinker0: Rice Yuan
+## Thinker1: Weifen Chen
+## Thinker2: Isaac Lin
+## Thinker3: Sofya Kliuchnik
 ---
 
 This project will be completed in phases. The first phase will be to work on this document. Use github-flavoured markdown. (For more markdown help [click here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) or [here](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) )
@@ -26,29 +28,30 @@ All projects will require the following:
 ## Phase 0: Force Selection, Analysis & Plan
 ---------- 
 
-#### Custom Force: NAME OF YOUR FORCE
+#### Custom Force: Electrostatic force
 
 ### Custom Force Formula
 What is the formula for your force? Including descriptions/definitions for the symbols. (You may include a picture of the formula if it is not easily typed.)
 
-YOUR ANSWER HERE
+![Electrostatic-Force-Equation-3746599729](https://github.com/user-attachments/assets/986037b6-2c28-4f27-9bd7-c324bda60bd4)
+
 
 ### Custom Force Breakdown
 - What information that is already present in the `Orb` or `OrbNode` classes does this force use?
-  - YOUR ANSWER HERE
-
+  - bounce(like bouncing off of the sides)
 - Does this force require any new constants, if so what are they and what values will you try initially?
-  - YOUR ANSWER HERE
+  - a resistance power which affects how close an orb can get to the other
+  - based on mass, distance, charge
+  - Coulomb's constant (k)
 
 - Does this force require any new information to be added to the `Orb` class? If so, what is it and what data type will you use?
-  - YOUR ANSWER HERE
+  - yes, int? PVector?
 
 - Does this force interact with other `Orbs`, or is it applied based on the environment?
-  - YOUR ANSWER HERE
+  - interacts with other orbs
 
 - In order to calculate this force, do you need to perform extra intermediary calculations? If so, what?
-  - YOUR ANSWER HERE
-
+  - yes: judge status of orbs, and then calculate pull based on force(by mass & k factor)
 --- 
 
 ### Simulation 1: Gravity
@@ -70,10 +73,11 @@ YOUR ANSWER HERE
 
 --- 
 
-### Simulation 4: Custom force
+### Simulation 4: Electrostatic force (Custom force)
 Describe what your Custom force simulation will look like. Explain how it will be setup, and how it should behave while running.
 
-YOUR ANSWER HERE
+Two points (positive or negative subatomic particles) will be setup, and their charges, mass, distance can be adjusted. Once the setup is finaized, when it runs, it should show the forces on each point and the direction (vector).
+
 
 --- 
 
