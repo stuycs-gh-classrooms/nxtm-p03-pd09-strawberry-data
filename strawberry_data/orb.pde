@@ -4,9 +4,11 @@ class Orb {
   PVector center;
   PVector velocity;
   PVector acceleration;
+  boolean ES //electrostatic
   float bsize;
   float mass;
   color c;
+  
 
 
   Orb() {
@@ -78,6 +80,22 @@ class Orb {
 
     return direction;
   }//getSpring
+  
+  void chargeChoice(){
+    if (random(0,1) == 1){
+      boolean ES = true;
+    }else{
+      boolean ES = false;
+    }
+  
+  PVector electroStatic(Orb other, int rDistance, float CoulombK) {
+    if(this.ES && other.ES){
+      PVector direction = PVector.add(other.center, this.center);
+    }else{
+      PVector direction = PVector.sub(other.center, this.center);
+    }
+    
+    
 
   boolean yBounce(){
     if (center.y > height - bsize/2) {

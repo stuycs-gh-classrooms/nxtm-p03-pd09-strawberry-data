@@ -28,7 +28,7 @@ void setup() {
 }//setup
 
 void draw() {
-  background(255);
+  background(255,0,0);
   displayMode();
 
 
